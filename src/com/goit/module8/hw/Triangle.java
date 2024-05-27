@@ -1,7 +1,8 @@
 package com.goit.module8.hw;
 
 public class Triangle extends Shape {
-    public Triangle() {
-        super.name = "Triangle";
+
+    public Triangle(String name) {
+        super(name);
     }
 }

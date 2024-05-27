@@ -6,11 +6,11 @@ public class Printer {
     }
 
     public static void main(String[] args) {
-        Shape circle = new Circle();
-        Shape quad = new Quad();
-        Shape cube = new Cube();
-        Shape trapezium = new Trapezium();
-        Shape triangle = new Triangle();
+        Shape circle = new Circle("Circle");
+        Shape quad = new Quad("Quad ");
+        Shape cube = new Cube("Cube");
+        Shape trapezium = new Trapezium("Trapezium");
+        Shape triangle = new Triangle("Triangle");
 
         Printer printer = new Printer();
         printer.print(circle);
@@ -19,4 +19,5 @@ public class Printer {
         printer.print(trapezium);
         printer.print(triangle);
     }
+
 }
